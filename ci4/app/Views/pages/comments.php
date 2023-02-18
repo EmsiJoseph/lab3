@@ -2,8 +2,8 @@
     <div class="header">
         <h1 class="container">
             <nav>
-                <a href="index.php">
-                    <img src="images/icon.png" class="logo">
+                <a href="home">
+                    <img src="img/icon.png" class="logo">
                 </a>
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -20,7 +20,7 @@
                 <div class="comment-left">
                     <hi class="sub-title">Comments</hi>
                     <br><br>
-                    <?php include 'getComments.php'; ?>
+                    <!-- ?php include 'getComments.php'; ?> -->
                 </div>
                 <div class="contact-right">
                     <!-- --------Form------------ -->
@@ -29,10 +29,10 @@
                         <input type="text" name="name" placeholder="Your Name" required>
                         <input type="email" name="email" placeholder="Your Email" required>
                         <input type="website" name="website" placeholder="Your Website">
-                        <textarea name="comment" rows="6" placeholder="Your Message"></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
+                        <textarea style="resize: none;" name="comment" rows="6" placeholder="Your Message"></textarea>
+                        <button style="resize: none;" type="submit" class="btn btn2">Submit</button>
                     </form>
-                    <?php include 'form.php'; ?>
+                    <!-- ?php include 'form.php'; ?> -->
 
                 </div>
             </div>

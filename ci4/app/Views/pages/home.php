@@ -2,8 +2,8 @@
   <div id="header">
     <div class="container">
       <nav>
-        <a href="index.php">
-          <img src="images/icon.png" class="logo">
+        <a href="home">
+          <img src="img/icon.png" class="logo">
         </a>
         <ul>
           <li><a href="#">Home</a></li>
@@ -23,7 +23,7 @@
     <div class="container">
       <div class="row">
         <div class="about-col-1">
-          <img src="images/about-me.jpg" id="profilePicture" alt="Profile picture">
+          <img src="img/about-me.jpg" id="profilePicture" alt="Profile picture">
         </div>
         <div class="about-col-2">
           <h2 class="sub-title">About Me</h2><br>
@@ -108,17 +108,16 @@
             <input type="text" name="name" placeholder="Your Name" required>
             <input type="email" name="email" placeholder="Your Email" required>
             <input type="website" name="website" placeholder="Your Website">
-            <textarea name="comment" rows="6" placeholder="Your Message"></textarea>
+            <textarea style="resize: none;" name="comment" rows="6" placeholder="Your Message"></textarea>
             <button type="submit" class="btn btn2">Submit</button>
             </form>
 
-            <?php include 'form.php'; ?>
-          
+            <!-- ?php include 'form.php'; ?> -->
             
         </div>
       </div>
       <div style="text-align: center">
-            <a href="comments.php">
+            <a href="comments">
               <button class="btn btn2">See comments</button>
             </a>
         </div>
