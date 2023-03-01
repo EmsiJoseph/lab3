@@ -103,7 +103,7 @@
         </div>
         <div class="about-col-1">
           <img src="img/contact-img.jpg" id="profilePicture" alt="Profile picture">
-          <img src="img/smile.jpg" id="profilePicture" alt="Profile picture">
+<!--           <img src="img/smile.jpg" id="profilePicture" alt="Profile picture"> -->
         </div>
       <div style="text-align: center">
             <a href="/lab3/ci4/public/comments/">
