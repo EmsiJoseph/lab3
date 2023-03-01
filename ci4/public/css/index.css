@@ -203,11 +203,6 @@
   }
   
   /* ------contact----- */
-  #contact{
-    padding: 0px 0;
-    background-color: #171616;
-  }
-
   .contact-left{
     flex-basis: 60%;
   }
