@@ -35,7 +35,7 @@ use App\Controllers\Comments;
 use App\Controllers\News;
 use App\Controllers\Pages;
 
-$routes->match(['get', 'post'], 'comments/index', [Comments::class, 'index']);
+$routes->match(['get', 'post'], 'comments', [Comments::class, 'index']);
 $routes->get('comments', [Comments::class, 'index']);
 
 
