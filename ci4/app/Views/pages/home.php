@@ -107,5 +107,5 @@
               <button class="btn btn2">See comment section</button>
             </a>
       </div>
-    </div>
   </div>
+</div>
