@@ -6,13 +6,13 @@
           <img src="img/icon.png" class="logo">
         </a>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <div class="header-text">
+      <div id="home" class="header-text">
         <p>APC Student</p>
         <h1>Hi, my name is <br> <span>Mc Joseph Agbanlog</span><br>From <span>BSIT MI211</span></h1>
       </div>
@@ -102,24 +102,13 @@
             </div>
         </div>
         <div class="contact-right">
-          <!-- --------Form------------ -->
-        
-            <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <input type="website" name="website" placeholder="Your Website">
-            <textarea style="resize: none;" name="comment" rows="6" placeholder="Your Message"></textarea>
-            <button type="submit" class="btn btn2">Submit</button>
-            </form>
-
-            <!-- ?php include 'form.php'; ?> -->
-            
+       
         </div>
       </div>
       <div style="text-align: center">
-            <a href="comments">
-              <button class="btn btn2">See comments</button>
+            <a href="/lab3/ci4/public/comments/">
+              <button class="btn btn2">See comment section</button>
             </a>
-        </div>
+      </div>
     </div>
   </div>
