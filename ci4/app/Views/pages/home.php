@@ -103,11 +103,8 @@
         </div>
         <div class="image-container">
           <img src="img/contact-img.jpg" id="profilePicture" alt="Profile picture">
-        </div>
-        <div class="image-container">
           <img src="img/smile.jpg" id="profilePicture" alt="Profile picture">
         </div>
-      </div>
       <div style="text-align: center">
             <a href="/lab3/ci4/public/comments/">
               <button class="btn btn2">See comment section</button>
