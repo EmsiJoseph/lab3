@@ -18,25 +18,14 @@
  <div id="contact">
     <div class="container">
       <div class="row">
-        <!-- <div class="contact-left">
-          <hi class="sub-title">Contact Me</hi>
-            <p><i class="fa-sharp fa-solid fa-paper-plane"></i> mcagbanlog@student.apc.edu.ph</p>
-            <p><i class="fa-solid fa-phone"></i> 09762623231</p>
-            <div class="social-icons">
-              <a href="https://www.facebook.com/emsijusep"><i class="fa-brands fa-facebook"></i></a>
-              <a href="https://twitter.com/emsheesh"><i class="fa-brands fa-twitter-square"></i></a>
-              <a href="https://www.instagram.com/emshiiisunn/"><i class="fa-brands fa-instagram"></i></a>
-              <a href="https://www.linkedin.com/in/mc-joseph-agbanlog-6a8387218/"><i class="fa-brands fa-linkedin"></i></a>
-            </div>
-            <a href="/lab3/ci4/public/comments/create">
-        <button class="btn btn2">Post a comment</button>
-    </a>
-        </div> -->
+      
         <div class="contact-left">
-        <?= session()->getFlashdata('error') ?>
+          <br>
+          <h1>Post your comment here</h1>
+            <?= session()->getFlashdata('error') ?>
             <?= validation_list_errors() ?>
 
-            <form action="/lab3/ci4/public/comments/index" method="post">
+            <form action="/lab3/ci4/public/comments" method="post">
                 <?= csrf_field() ?>
 
                 <input type="input" name="name" placeholder="Your Name" value="<?= set_value('name') ?>" required>
@@ -51,7 +40,7 @@
             </form>
         </div>
         <div class="contact-right">
-                    <hi class="sub-title"><?= esc($title) ?></hi>
+                    <h1 class="sub-title"><?= esc($title) ?></h1>
                     <br><br>
                     
                     <?php if (! empty($comments) && is_array($comments)): ?>

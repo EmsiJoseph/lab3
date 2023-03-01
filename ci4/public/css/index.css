@@ -169,11 +169,13 @@
   
   .image-container {
     height: 25rem;
+    border-radius: 15px;
   }
   
   .image-container img {
     object-fit: cover;
     height: 25rem;
+    border-radius: 15px;
   }
   
   .portfolio-box .content {
@@ -201,13 +203,21 @@
   }
   
   /* ------contact----- */
+  #contact{
+    padding: 80px 0;
+    background-color: #171616;
+  }
+
   .contact-left{
-    flex-basis: 35%;
+    flex-basis: 60%;
   }
   .contact-right{
-    flex-basis: 50%;
+    flex-basis: 35%;
   }
-  
+  .contact-right img{
+    width: 100%;
+    border-radius: 15px;
+  }
   .contact-left p{
     margin-top: 30px;
   }

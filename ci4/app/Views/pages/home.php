@@ -1,6 +1,6 @@
 <body>
   <div id="header">
-    <div class="container">
+    <div id="home" class="container">
       <nav>
         <a href="home">
           <img src="img/icon.png" class="logo">
@@ -12,7 +12,7 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <div id="home" class="header-text">
+      <div class="header-text">
         <p>APC Student</p>
         <h1>Hi, my name is <br> <span>Mc Joseph Agbanlog</span><br>From <span>BSIT MI211</span></h1>
       </div>
@@ -101,8 +101,11 @@
               <a href="https://www.linkedin.com/in/mc-joseph-agbanlog-6a8387218/"><i class="fa-brands fa-linkedin"></i></a>
             </div>
         </div>
-        <div class="contact-right">
-       
+        <div class="image-container">
+          <img src="img/contact-img.jpg" id="profilePicture" alt="Profile picture">
+        </div>
+        <div class="image-container">
+          <img src="img/smile.jpg" id="profilePicture" alt="Profile picture">
         </div>
       </div>
       <div style="text-align: center">
