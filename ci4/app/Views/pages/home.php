@@ -104,6 +104,7 @@
         </div>
         <div class="contact-right">
           <img class="contact-img" src="img/contact-img.jpg" id="profilePicture" alt="Profile picture">
+          <img class="contact-img" src="img/smile.jpg" id="profilePicture" alt="Profile picture">
         </div>
       </div>
       <div style="text-align: center">
