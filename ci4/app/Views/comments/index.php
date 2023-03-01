@@ -2,14 +2,14 @@
   <div class="header">
     <div class="container">
       <nav>
-        <a href="home">
+        <a href="/~mcagbanlog/lab3/ci4/public/home#home">
           <img src="img/icon.png" class="logo">
         </a>
         <ul>
-          <li><a href="/lab3/ci4/public/home#home">Home</a></li>
-          <li><a href="/lab3/ci4/public/home#about">About</a></li>
-          <li><a href="/lab3/ci4/public/home#portfolio">Portfolio</a></li>
-          <li><a href="/lab3/ci4/public/home#contact">Contact</a></li>
+          <li><a href="/~mcagbanlog/lab3/ci4/public/home#home">Home</a></li>
+          <li><a href="/~mcagbanlog/lab3/ci4/public/home#about">About</a></li>
+          <li><a href="/~mcagbanlog/lab3/ci4/public/home#portfolio">Portfolio</a></li>
+          <li><a href="/~mcagbanlog/lab3/ci4/public/home#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -25,7 +25,7 @@
             <?= session()->getFlashdata('error') ?>
             <?= validation_list_errors() ?>
 
-            <form action="/lab3/ci4/public/comments" method="post">
+            <form action="/~mcagbanlog/lab3/ci4/public/comments" method="post">
                 <?= csrf_field() ?>
 
                 <input type="input" name="name" placeholder="Your Name" value="<?= set_value('name') ?>" required>
