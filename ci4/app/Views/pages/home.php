@@ -91,7 +91,7 @@
   <div id="contact">
     <div class="container">
       <div class="row">
-       <div class="contact-left">
+        <div class="contact-left">
           <hi class="sub-title">Contact Me</hi>
             <p><i class="fa-sharp fa-solid fa-paper-plane"></i> mcagbanlog@student.apc.edu.ph</p>
             <p><i class="fa-solid fa-phone"></i> 09762623231</p>
@@ -102,17 +102,11 @@
               <a href="https://www.linkedin.com/in/mc-joseph-agbanlog-6a8387218/"><i class="fa-brands fa-linkedin"></i></a>
             </div>
         </div>
-        <div class="contact-right">
-          <img class="contact-img" src="img/contact-img.jpg" id="profilePicture" alt="Profile picture">
-          <br>
-          <br>
-          <img class="contact-img" src="img/smile.jpg" id="profilePicture" alt="Profile picture">
-        </div>
       </div>
-  </div>
-</div>
-<div style="text-align: center">
+      <div style="text-align: center">
             <a href="/lab3/ci4/public/comments/">
               <button class="btn btn2">See comment section</button>
             </a>
       </div>
+  </div>
+</div>
