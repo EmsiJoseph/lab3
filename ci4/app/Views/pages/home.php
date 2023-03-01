@@ -2,14 +2,14 @@
   <div id="header">
     <div id="home" class="container">
       <nav>
-        <a href="home">
+        <a href="/~mcagbanlog/lab3/ci4/public/home#home">
           <img src="img/icon.png" class="logo">
         </a>
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="/~mcagbanlog/lab3/ci4/public/home#home">Home</a></li>
+          <li><a href="/~mcagbanlog/lab3/ci4/public/home#about">About</a></li>
+          <li><a href="/~mcagbanlog/lab3/ci4/public/home#portfolio">Portfolio</a></li>
+          <li><a href="/~mcagbanlog/lab3/ci4/public/home#contact">Contact</a></li>
         </ul>
       </nav>
       <div class="header-text">
@@ -104,7 +104,7 @@
         </div>
       </div>
       <div style="text-align: center">
-            <a href="/lab3/ci4/public/comments/">
+            <a href="/~mcagbanlog/lab3/ci4/public/comments/">
               <button class="btn btn2">See comment section</button>
             </a>
       </div>
