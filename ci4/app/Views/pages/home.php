@@ -101,12 +101,6 @@
               <a href="https://www.linkedin.com/in/mc-joseph-agbanlog-6a8387218/"><i class="fa-brands fa-linkedin"></i></a>
             </div>
         </div>
-        <div class="image-container">
-          <img src="img/contact-img.jpg" id="profilePicture" alt="Profile picture">
-        </div>
-        <div class="image-container">
-          <img src="img/smile.jpg" id="profilePicture" alt="Profile picture">
-        </div>
       </div>
       <div style="text-align: center">
             <a href="/lab3/ci4/public/comments/">
